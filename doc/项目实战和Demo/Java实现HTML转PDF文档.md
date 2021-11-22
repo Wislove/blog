@@ -255,6 +255,7 @@ html模板代码:
 </html>
 ```
 `resource`目录：
+
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/22631235/1637573433244-cc8a4255-e8ce-48df-a9a2-ce04f34a2877.png#clientId=u8d285f70-4f44-4&from=paste&height=124&id=u48ef25bb&margin=%5Bobject%20Object%5D&name=image.png&originHeight=247&originWidth=431&originalType=binary&ratio=1&size=11992&status=done&style=none&taskId=uf3aa7951-72f1-41b4-a1af-76d2ec26cb0&width=215.5)
 
 
