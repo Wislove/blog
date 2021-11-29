@@ -36,6 +36,7 @@
 2. spring单例bean的线程安全，bean的生命周期
 3. Redis如何实现分布式锁
 4. 自定义spring boot的@Enable注解注入组件
+5. 缓存模型,缓存的场景，优劣势与一些BUG
 
 
 - ### Mysql
@@ -50,7 +51,7 @@
 - ### 其他框架整合Demo
 1. 缓存框架Redis的概述和整合spring boot
 2. 消息队列框架：Kafka, RocketMQ与整合spring boot
-3. 权限认证: Spring Security的概述和整合spring boot
+3. 权限认证: Spring Security和JWT的概述和整合spring boot
 4. 全文检索与日志分析：ELK概述和整合spring boot
 5. Mongodb的整合与存储文件，集群和分片
 6. nacos配置中心和服务注册与发现的整合
