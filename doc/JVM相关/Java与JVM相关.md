@@ -61,12 +61,24 @@ Object object = new Object();
 直接指针的好处是只访问一次，直接访问到对象实例，劣势是对象指针改变，栈存的引用指针跟着改变
 
 ### JVM相关命令行参数
+JVM的参数其实就是对JVM各个区域的参数配置，不同区域有不同的参数配置，以及对于GC的一些分析，常用的主要有：
 
+- -Xmx：堆最小值
+- -Xms: 堆最大值
+- -Xmn: 年轻代大小
+- -XX:SurvivorRatio：Eden区和Survivor的比例
+- -XX:MaxTenuringThreshold：垃圾最大年龄
+
+其他的一些可以从其他博客查看:
+[JVM常用命令](https://www.cnblogs.com/redcreen/archive/2011/05/04/2037057.html)
 
 ### 其他问题
 1. 频繁发生Full GC，可以怎么解决？
 2. 内存溢出和内存泄漏有什么区别？
 3. 双亲委派机制的目的和好处，如何破坏双亲委派机制
+
+### 其他博客链接
+[JVM系列](https://www.cnblogs.com/ityouknow/p/5603287.html)
 
 ### 总结
 浅析了一遍我所了解的Java虚拟机，也可以说《深入理解Java虚拟机》的读后感。对Java虚拟机有了一个大概的了解，应付浅一点的面试应该是足够了。再深入的就只有后续遇到或者感兴趣的时候再研究了
