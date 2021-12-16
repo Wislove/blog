@@ -13,6 +13,7 @@
 
  - ### JVM与Java的内存模型
 1. [浅析Java虚拟机](/doc/JVM相关/Java与JVM相关.md)
+2. [深入理解Java虚拟机电子书](/doc/JVM相关/深入理解Java虚拟机JVM高级特性与最佳实践第3版(周志朋).pdf)
 
  - ### Java中的数据结构和算法
  1. String的特性，不可变的优劣势，常用方法，面试题
